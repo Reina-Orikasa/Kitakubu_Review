@@ -1,1 +1,3 @@
-# Kitakubu_Review
+# Reina Orikasa's Kitakubu Katsudou Kiroku Review Page
+
+WIP
