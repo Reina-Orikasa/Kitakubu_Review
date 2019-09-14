@@ -1,3 +1,36 @@
+h2.section-header {
+    font-family: Helvetica;
+}
+
+.noLinkStyle {
+    text-decoration: none;
+    color: black;
+}
+
+.noLinkStyle a:hover {
+    text-decoration: underline;
+}
+
+.headerList li, .footerList li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
 header {
     background-color: skyblue
+}
+
+footer {
+    background-color: darkslategrey;
+    color: white;
+}
+
+main {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: pink;
+}
+
+body {
+    background-color: white;
 }
