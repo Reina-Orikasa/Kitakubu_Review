@@ -2,6 +2,13 @@ h2.section-header {
     font-family: Georgia;
 }
 
+.facts {
+    display: inline-block;
+    border-right: solid white 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .fun {
     border: dotted white 1px;
     position: relative;
