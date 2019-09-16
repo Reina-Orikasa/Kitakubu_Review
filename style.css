@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+}
+
+html { 
+    scroll-behavior: smooth; 
+}
+
 h2.section-header {
     font-family: Georgia;
 }
@@ -7,6 +15,7 @@ h2.section-header {
     border-right: solid white 1px;
     padding-right: 10px;
     padding-left: 10px;
+    font-weight: bold;
 }
 
 .fun {
@@ -38,6 +47,10 @@ h2.section-header {
     border-right: solid white 1px;
     list-style-type: none;
     font-size: 20px;
+}
+
+.title {
+    padding-top: 10px;
 }
 
 .writer {
