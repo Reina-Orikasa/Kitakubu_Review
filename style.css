@@ -10,6 +10,11 @@ h2.section-header {
     font-family: Georgia;
 }
 
+.about-writer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .facts {
     display: inline-block;
     border-right: solid white 1px;
@@ -97,6 +102,7 @@ main {
 }
 
 nav {
+    font-size: 20px;
     text-align: center;
 }
 
