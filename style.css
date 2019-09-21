@@ -1,39 +1,45 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html { 
     scroll-behavior: smooth; 
 }
 
-h2.section-header {
-    font-family: Georgia;
-}
-
 .about-writer {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.facts {
-    display: inline-block;
-    border-right: solid white 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-weight: bold;
+    margin: 10px 0px 20px;
 }
 
 .fun {
     border: dotted white 1px;
     position: relative;
     padding: 20px;
-    left: 45%;
+    left: auto;
+    width: 100px;
+    margin: 0px auto;
 }
 
 .profileimg {
     border-radius: 50%;
     height: 75px;
     width: auto;
+}
+
+.quickFacts {
+    margin: 0px 0px 25px;
+}
+
+.quickFacts h2 {
+    border-bottom: solid skyblue 1px;
+}
+
+.quickFacts p {
+    display: inline-block;
+    border-right: solid white 1px;
+    padding: 0px 10px;
+    font-weight: bold;
 }
 
 .noLinkStyle {
@@ -69,8 +75,29 @@ h2.section-header {
     color: white;
 }
 
+article {
+    margin-bottom: 25px;
+}
+
 article h2 {
     border-bottom: 1px solid skyblue;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: rgb(2, 38, 92);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover, .headerList li a:hover {
+    text-decoration: underline;
 }
 
 header {
@@ -79,39 +106,30 @@ header {
     text-align: center;
 }
 
-footer {
-    background-color: rgb(2, 38, 92);
-    color: white;
-    padding: 10px;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-}
-
-footer a:hover, .headerList li a:hover {
-    text-decoration: underline;
+h1, h2, h3, h4, h5 {
+    font-family: Georgia;
 }
 
 main {
-    padding-left: 20%;
-    padding-right: 20%;
+    margin: 5% 20%;
     color: white;
     line-height: 2;
 }
 
 nav {
+    background-color: #466995;
     font-size: 20px;
     text-align: center;
+    width: 100%;
+    z-index: 2;
 }
 
 body {
     background: rgb(20, 30, 46);
-    margin: 0;
-    padding: 0;
 }
 
 p {
     font-family: Helvetica;
+    min-width: 100px;
+    max-width: auto;
 }
