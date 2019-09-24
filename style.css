@@ -84,6 +84,10 @@ article h2 {
     margin-bottom: 25px;
 }
 
+body {
+    background: rgb(20, 30, 46);
+}
+
 footer {
     background-color: rgb(2, 38, 92);
     color: white;
@@ -102,12 +106,20 @@ footer a:hover, .headerList li a:hover {
 
 header {
     background-color: rgb(94, 169, 199);
-    background-size: cover;
+    background-size: auto;
     text-align: center;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
+    text-transform: capitalize;
+}
+
+h1, h2 {
     font-family: Georgia;
+}
+
+h2 {
+    letter-spacing: 0.02em;
 }
 
 main {
@@ -117,19 +129,43 @@ main {
 }
 
 nav {
-    background-color: #466995;
-    font-size: 20px;
+    font-size: 30px;
+    height: 35px;
+    position: fixed;
     text-align: center;
     width: 100%;
     z-index: 2;
 }
 
-body {
-    background: rgb(20, 30, 46);
+ul.headerList {
+    background: rgba(20, 30, 46, 0.75);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.headerList li a {
+    padding: 14px 16px;
+    text-align: center;
+}
+
+nav li a:hover:not(.active) {
+    color: lightpink;
 }
 
 p {
     font-family: Helvetica;
     min-width: 100px;
     max-width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    ul.headerList li {
+        display: block;
+        float: none;
+    }
+
+    nav {
+        position: relative;
+    }
 }
