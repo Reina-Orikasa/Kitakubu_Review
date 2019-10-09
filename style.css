@@ -13,9 +13,11 @@ html {
 }
 
 .fun {
-    border: dotted white 1px;
+    border-bottom: solid white 1px;
+    font-size: 25px;
+    font-weight: bold;
     position: relative;
-    padding: 20px;
+    padding: 10px;
     left: auto;
     width: 100px;
     margin: 0px auto;
@@ -107,6 +109,7 @@ footer a:hover, .headerList li a:hover {
 header {
     background-color: rgb(94, 169, 199);
     background-size: auto;
+    line-height: 2;
     text-align: center;
 }
 
@@ -115,7 +118,7 @@ h1 {
 }
 
 h1, h2 {
-    font-family: Georgia;
+    font-family: Georgia, serif;
 }
 
 h2 {
@@ -154,7 +157,8 @@ nav li a:hover:not(.active) {
 }
 
 p {
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.02em;
     min-width: 100px;
     max-width: auto;
 }
